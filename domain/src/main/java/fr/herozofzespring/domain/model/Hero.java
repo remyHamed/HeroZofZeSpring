@@ -1,4 +1,4 @@
-package fr.herozofzespring.domain;
+package fr.herozofzespring.domain.model;
 
 public class Hero {
     String name;
@@ -6,10 +6,10 @@ public class Hero {
     int xp;
     int power;
     int armor;
-    Object speciality;
-    Object rarity;
+    Speciality speciality;
+    Rarity rarity;
     int level;
-    public Hero(String name, Object speciality, Object rarity) {
+    public Hero(String name, Speciality speciality, Rarity rarity) {
         this.name = name;
         this.speciality = speciality;
         this.rarity = rarity;
